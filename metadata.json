@@ -1,0 +1,6 @@
+{
+  "name": "Sun'iy Immun Tizimli Tarmoq Himoyasi",
+  "description": "Tarmoqdagi zararkunanda dasturlar va anomaliyalarni Sun'iy Immun Tizimlari (AIS) algoritmlari (NSA, CSA, DCA) yordamida aniqlash va tahlil qilish platformasi va intellektual bot.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
