@@ -433,9 +433,13 @@ export default function App() {
       {/* Header Section */}
       <header className="h-16 border-b border-[#1f2937] flex items-center justify-between px-8 bg-[#0d1117] sticky top-0 z-50">
         <div className="flex items-center gap-3">
-          <div className="w-8 h-8 rounded-md bg-[#2563eb] flex items-center justify-center shadow-[0_0_15px_rgba(37,99,235,0.4)]">
-            <Shield className="w-5 h-5 text-white" />
-          </div>
+          <img
+            src="/logo.svg"
+            alt=""
+            width={36}
+            height={36}
+            className="w-9 h-9 shrink-0 drop-shadow-[0_0_12px_rgba(37,99,235,0.45)]"
+          />
           <div>
             <h1 className="text-sm font-bold tracking-tight uppercase font-display flex items-center gap-2">
               AIS Malware Shield <span className="text-[#2563eb] text-xs font-mono font-medium opacity-90">v2.4.0</span>
@@ -1067,9 +1071,7 @@ export default function App() {
                 <div>
                   <div className="flex items-center justify-between border-b border-[#1f2937] pb-2 mb-2">
                     <div className="flex items-center gap-1.5">
-                      <div className="p-1 bg-purple-500/10 rounded text-purple-400 border border-purple-500/20">
-                        <Bot className="w-3.5 h-3.5" />
-                      </div>
+                      <img src="/favicon.svg" alt="" width={22} height={22} className="w-[22px] h-[22px]" />
                       <h4 className="text-[11px] font-bold text-slate-200 font-mono">Immun AI Assistenti</h4>
                     </div>
                     <span className="text-[8px] text-slate-500 font-mono bg-[#161b22] px-1.5 py-0.5 rounded border border-[#30363d]">
